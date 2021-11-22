@@ -27,6 +27,10 @@ python EditDistance.py klinger klingre
 
 =============================================================
 # BellmanFord
+# Calculates shortest path in graph
+# Input path lengths in code
+# Does not output internal table
+python BellmanFord.py
 
 =============================================================
 # FordFulkerson
