@@ -26,9 +26,15 @@ python GraphMST2.py
 python EditDistance.py klinger klingre
 
 =============================================================
-
+# BellmanFord
 
 =============================================================
+# FordFulkerson
 
+=============================================================
+# Hufman
+# insert string as argument, spaces with "_" string
+# Make sure the | are positioned like Pål wants them to be (like at beginning or end of word)
+python HufmannTree.py testiest_sensitiveness
 
 =============================================================
