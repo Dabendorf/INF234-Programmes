@@ -20,3 +20,15 @@ python GraphMST.py
 python GraphMST2.py
 
 =============================================================
+# Edit distance:
+# Takes as input two words
+# Calculates control value via Levensthein framework
+python EditDistance.py klinger klingre
+
+=============================================================
+
+
+=============================================================
+
+
+=============================================================
