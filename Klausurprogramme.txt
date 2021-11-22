@@ -1,10 +1,15 @@
 =============================================================
-Subset sum:
-
+# Subset sum:
+# max weight, sequence of weights (separator: S)
+# Attention: List of Elements doesn't work, use Knapsack
+python SubsetSum.py 20 3S4S5S7S11
 
 =============================================================
-
-
+# Knapsack:
+# max weight, sequence of weights (separator: S), sequence of values (S)
+# Subset sum by setting weights and values equal
+python Knapsack.py 20 3S4S5S7S11 3S4S5S7S11
+python Knapsack.py 10 4S4S5S3S2S6 10S11S14S6S5S14
 
 =============================================================
 

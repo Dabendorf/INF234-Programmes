@@ -3,6 +3,8 @@ import numpy as np
 
 # Input: maximum weight w, sequence of weights, separated by S,
 # sequence of values, separated by S
+# python Knapsack.py 20 3S4S5S7S11 3S4S5S7S11
+# python Knapsack.py 10 4S4S5S3S2S6 10S11S14S6S5S14
 def main():
 	W = int(sys.argv[1])
 	weights_str = sys.argv[2].strip().split("S")

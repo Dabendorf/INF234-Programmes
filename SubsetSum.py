@@ -39,6 +39,20 @@ def main():
 	n_ind = n
 	W_ind = W
 	el_list = []
+	"""while subsum < M[n][W]:
+		n_ind -= 1
+		path1 = M[n_ind][W_ind]
+		path2 = M[n_ind][W_ind-weights[n_ind]]
+		
+		if path1+weights[n_ind] == M[n_ind+1][W_ind]:
+			print("Path right")
+			# Path 1 correct (right), no element added
+		else:
+			print("Path left")
+			# Path 2 correct (left), element added
+			el_list.append(weights[n_ind])
+			subsum += (weights[n_ind])
+			W_ind -= weights[n_ind]"""
 	while subsum < M[n][W]:
 		n_ind -= 1
 		path1 = M[n_ind][W_ind]
