@@ -12,7 +12,11 @@ python Knapsack.py 20 3S4S5S7S11 3S4S5S7S11
 python Knapsack.py 10 4S4S5S3S2S6 10S11S14S6S5S14
 
 =============================================================
-
-
+# Minimum Spannung tree
+# Two programmes: GraphMST selv programmed Kruskal
+# GraphMST is framework implementation of Prim and Kruskal
+# Use (GraphMST only accepts numbers as node names):
+python GraphMST.py
+python GraphMST2.py
 
 =============================================================
