@@ -34,6 +34,16 @@ python BellmanFord.py
 
 =============================================================
 # FordFulkerson
+# Two programmes, one for the entire algorithm and one for one iteration
+
+# Entire programme: insert edge weights in tuple orig_cap
+python FordFulkerson.py
+
+# Just one iteration, three lists (third redundant, sorry)
+# orig_cap: edge weights in original graph
+# g_edges_used: used flow at the moment
+# g_f_edges: all edges of residual graph
+python FordFulkersonInner.py
 
 =============================================================
 # Hufman
