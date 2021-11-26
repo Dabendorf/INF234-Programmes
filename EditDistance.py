@@ -42,7 +42,9 @@ def min_dist(word1: str, word2: str) -> int:
 			val3 = delta + A[i][j-1]
 			A[i][j] = min(val1, val2, val3)
 
-	print(np.matrix(A))
+	print("Horizontal: "+word1)
+	print("Vertikal: "+word2)
+	print(np.matrix(np.transpose(A)))
 	return A[len_word1][len_word2]
 
 # Programme for homework purpose and knuths list of words

@@ -9,7 +9,7 @@ import queue
 # Python Dijkstra.py s
 def main():
 	start_node = sys.argv[1]
-	edge_weights = [('0', '1', 5),
+	"""edge_weights = [('0', '1', 5),
 					('0', '2', 5),
 					('1', '2', 8),
 					('0', '4', 9),
@@ -20,6 +20,16 @@ def main():
 					('1', '6', 4),
 					('6', '7', 9),
 					('3', '5', 9),
+	]"""
+	edge_weights = [('a', 'b', 3),
+					('b', 'c', 1),
+					('a', 'c', 1),
+					('c', 'd', 4),
+					('b', 'd', 2),
+					('d', 'e', -5),
+					('e', 'g', 1),
+					('g', 'f', 1),
+					('e', 'f', 3),
 	]
 
 	G = nx.Graph()
@@ -64,6 +74,8 @@ def dijkstra(G: nx.DiGraph, s):
 
 			print("Distances: ")
 			print(dist)
+			print("Predecessor:")
+			print(pre)
 
 			visited.append(u)
 

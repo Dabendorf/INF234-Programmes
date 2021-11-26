@@ -30,7 +30,16 @@ python EditDistance.py klinger klingre
 # Calculates shortest path in graph
 # Input path lengths in code
 # Does not output internal table
+# Long version has output
 python BellmanFord.py
+python BellmanFordLong.py
+
+=============================================================
+# Dijkstra
+# Shortest path without negative edges
+# Input path lengths in code
+# Argument is start node
+python Dijkstra.py a
 
 =============================================================
 # FordFulkerson
@@ -49,6 +58,8 @@ python FordFulkersonInner.py
 # Hufman
 # insert string as argument, spaces with "_" string
 # Make sure the | are positioned like Pål wants them to be (like at beginning or end of word)
+# Second programme without words, but frequencies
 python HufmannTree.py testiest_sensitiveness
+python HufmanWithoutWord.py
 
 =============================================================

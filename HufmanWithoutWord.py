@@ -15,7 +15,8 @@ def main():
 		if letter != "_":
 			counter[letter] += 1"""
 	# Insert frequencies
-	counter = {"A": 80, "B": 20, "C": 42, "D": 10, "E": 26, "F": 66}
+	counter = {"A": 60, "B": 15, "C": 42, "D": 10, "E": 50, "F": 56, "G":12}
+	# counter = {"A": 14, "B": 7, "C": 9, "D": 18, "E": 19}
 
 	ancestors = dict()
 
