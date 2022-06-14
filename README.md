@@ -1,5 +1,5 @@
 # Programmes useful for INF234 course at UiB
-This repository includes a lot of algorithms being useful for the UiB course ``INF234 Algorithms``
+This repository includes a lot of algorithms being useful for the UiB course [``INF234 Algorithms``](https://www.uib.no/en/course/INF234)
 
 # Programmes
 * ``BellmanFord.py``: Solving a distance problem with Bellman-Ford
